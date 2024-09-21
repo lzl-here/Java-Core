@@ -1,11 +1,7 @@
-package lzl.com.atomic;
+package lzl.com.lock;
 
 import lzl.com.utils.Utils;
 
-import java.lang.management.ManagementFactory;
-import java.lang.management.OperatingSystemMXBean;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicInteger;
