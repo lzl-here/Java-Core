@@ -1,4 +1,4 @@
-package producer;
+package lzl.com.producer;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;
