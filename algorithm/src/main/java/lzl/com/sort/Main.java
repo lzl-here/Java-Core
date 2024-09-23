@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
-        confirm(100, 100, 100, Main::insertSort);
+        checkArray(10, 100, Main::quickSort);
     }
 
     /**
@@ -80,21 +80,34 @@ public class Main {
     /**
      * 快速排序
      */
-    private static void quickSort(int[] arr, int l, int r) {
+    private static void quickSort(int[] arr){
+        doQuickSort(arr, 0, arr.length - 1);
+    }
+
+    private static void doQuickSort(int[] arr, int l, int r) {
         if (arr.length <= 1) {
             return;
         }
         doSwap(arr, l, r, r);
         int mid = l + (r - l) / 2;
-        quickSort(arr, l, mid);
-        quickSort(arr, mid + 1, r);
+        doQuickSort(arr, l, mid);
+        doQuickSort(arr, mid + 1, r);
     }
 
     private static void doSwap(int[] arr, int l, int r, int pos) {
         if (l == r) {
             return;
         }
-
+        int num = arr[pos];
+        while(l < r && arr[l] < num){
+            l++;
+        }
+        while(r > l && arr[r] > num){
+            r--;
+        }
+        int temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
     }
 
 
@@ -117,6 +130,14 @@ public class Main {
         }
     }
 
+    /**
+     * 简单检验
+     */
+    private static void checkArray(int len, int maxNum, Consumer<int[]> consumer){
+        int[] array = generateArray(100, 100);
+        consumer.accept(array);
+        printArray(array);
+    }
     /**
      * 生成随机数组
      */
