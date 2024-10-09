@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/IdGenerator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IdGenerator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JDKSourceCode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JDKSourceCode/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaSE/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaSE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/Cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/Cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/RocketMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/RocketMQ/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiddleWare/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/collections/src/main/java" charset="UTF-8" />

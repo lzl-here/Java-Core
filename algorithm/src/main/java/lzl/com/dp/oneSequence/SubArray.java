@@ -1,4 +1,4 @@
-package lzl.com.dp.linear;
+package lzl.com.dp.oneSequence;
 
 public class SubArray {
     public static void main(String[] args) {

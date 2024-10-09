@@ -17,6 +17,10 @@
         <module>JDKSourceCode</module>
         <module>algorithm</module>
         <module>microservices</module>
+        <module>IdGenerator</module>
+        <module>MiddleWare</module>
+        <module>MiddleWare/RocketMQ</module>
+        <module>MiddleWare/Cache</module>
     </modules>
 
         <dependencyManagement>

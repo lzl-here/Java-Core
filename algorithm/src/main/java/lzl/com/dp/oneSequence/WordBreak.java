@@ -1,4 +1,4 @@
-package lzl.com.dp.linear;
+package lzl.com.dp.oneSequence;
 
 import java.util.*;
 
@@ -26,6 +26,7 @@ public class WordBreak {
 
     // region word break 2  https://leetcode.cn/problems/word-break-ii/
     public List<String> wordBreak2(String s, List<String> wordDict) {
+//        TODO：
         return null;
     }
     // endregion

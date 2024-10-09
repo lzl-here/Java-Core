@@ -84,6 +84,7 @@ public class Utils {
                 System.out.print(",");
             }
         }
+        System.out.println();
     }
 
 
