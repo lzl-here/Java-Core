@@ -1,9 +1,13 @@
 package com.lzl.coll.collections;
 
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+    }
+
+    private static void test(){
         List<Integer> arrayList = new ArrayList<>(9999999 + 10);
         List<Integer> linkedList = new LinkedList<>();
 
@@ -16,8 +20,6 @@ public class Main {
         forEach(arrayList); // 缓存局部性原理
         forEach(linkedList); // 寻址
     }
-
-
 
     private static void add(List<Integer> list) {
         for (int i = 0; i < 9999999; i++) {
